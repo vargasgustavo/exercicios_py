@@ -1,3 +1,5 @@
+# Desenvolva um programa que solicite dois números inteiros, mostre a soma destes números, e avise se a soma é maior, menor ou igual a 1000.
+
 n1 = int(input("Digite um valor: "))
 n2 = int(input("Digite um valor: "))
 

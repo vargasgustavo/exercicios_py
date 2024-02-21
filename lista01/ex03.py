@@ -1,3 +1,5 @@
+# Escreva um programa que leia dois valores inteiros distintos e informe qual é o maior.
+
 n1 = int(input("Digite um valor: "))
 n2 = int(input("Digite um valor: "))
 
