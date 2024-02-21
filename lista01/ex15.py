@@ -10,9 +10,9 @@
 # +---------------------------------------+------------------------------+
 # | Maior que 70 e menor ou igual a 90    |       Excesso de peso        |
 # +---------------------------------------+------------------------------+
-# | Maior que 90 e menor ou igual a 100   |               A              |
+# | Maior que 90 e menor ou igual a 100   |          Obesidade           |
 # +---------------------------------------+------------------------------+
-# | Maior que 90 e menor ou igual a 100   |               A              |
+# | Maior que 90 e menor ou igual a 100   |       Obesidade mórbida      |
 # +---------------------------------------+------------------------------+
 
 a = float(input("Digite sua altura: "))
