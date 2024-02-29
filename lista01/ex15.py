@@ -4,34 +4,29 @@
 # +---------------------------------------+------------------------------+
 # |                Pontos                 |           Conceito           |
 # +---------------------------------------+------------------------------+
-# | Menor ou igual a 50                   |        Abaixo do peso        |
+# | Menor ou igual a 20                   |        Abaixo do peso        |
 # +---------------------------------------+------------------------------+
-# | Maior que 50 e menor ou igual a 70    |            Normal            |
+# | Maior que 20 e menor ou igual a 25    |            Normal            |
 # +---------------------------------------+------------------------------+
-# | Maior que 70 e menor ou igual a 90    |       Excesso de peso        |
+# | Maior que 25 e menor ou igual a 30    |       Excesso de peso        |
 # +---------------------------------------+------------------------------+
-# | Maior que 90 e menor ou igual a 100   |          Obesidade           |
+# | Maior que 30 e menor ou igual a 35    |          Obesidade           |
 # +---------------------------------------+------------------------------+
-# | Maior que 90 e menor ou igual a 100   |       Obesidade mórbida      |
+# | Maior que 25 e menor ou igual a 40    |       Obesidade mórbida      |
 # +---------------------------------------+------------------------------+
 
 a = float(input("Digite sua altura: "))
-s = input("Digite seu sexo ( m / f ): ")
+p = float(input("Digite seu peso: "))
 
-if s == 'm':
-    peso_ideal = (72.7 * a) - 58
-elif s == 'f':
-    peso_ideal = (62.7 * a) - 44.7
+imc = p / (a ** 2)
 
-if peso_ideal <= 20:
+if imc <= 20:
     print(f'Você está abaixo do peso!')
-elif peso_ideal > 20 and peso_ideal <= 25:
+elif imc > 20 and imc <= 25:
     print(f'Seu peso está normal!')
-elif peso_ideal > 25 and peso_ideal <= 30:
+elif imc > 25 and imc <= 30:
     print(f'Você está com sobrepeso!')
-elif peso_ideal > 30 and peso_ideal <= 35:
+elif imc > 30 and imc <= 35:
     print(f'Você está com obesidade!')
-elif peso_ideal > 35 and peso_ideal <= 40:
+elif imc > 35 and imc <= 40:
     print(f'Você está com obesidade mórbida!')
-
-print(f'O seu peso ideal é {peso_ideal}')
