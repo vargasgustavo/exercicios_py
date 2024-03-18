@@ -1,4 +1,5 @@
-
+# Crie uma classe chamada Estudante com atributos para nome, idade, nota e série.
+# Adicione métodos para atualizar a nota e a série.
 
 
 class Estudante:
