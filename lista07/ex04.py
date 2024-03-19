@@ -10,6 +10,6 @@ class Livro:
     def imprime(self):
         print(f'{self.titulo} - {self.autor} - {self.numero_pagina}')
         
-livro1 = Livro("Anaconda 5", "Cacu Beludo", 600)
+livro1 = Livro("Anaconda 5", "Cuca Beludo", 600)
 
 livro1.imprime()
